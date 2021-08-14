@@ -1,4 +1,4 @@
-name: CI/CD Auto Deploy Saji LeoScientific
+name: CI/CD Auto-Deploy Saji-LeoScientific
 
 on:
   # Trigger the workflow on push or pull request,
