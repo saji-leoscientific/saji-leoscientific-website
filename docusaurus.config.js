@@ -8,7 +8,7 @@ module.exports = {
   url: 'https://saji-leoscientific.github.io',
   // baseUrl: '/',
   baseUrl: '/saji-leoscientific-website/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   // favicon: 'img/favicon.ico',
   favicon: 'img/LeoScientific-logo-light.ico',
@@ -32,7 +32,7 @@ module.exports = {
         alt: 'Leo Scientific Logo',
         // src: 'img/logo.svg',
         src: 'img/LeoScientific-logo-light.png',
-        srcDark: 'img/LeoScientific-logo-dark.png',
+//         srcDark: 'img/LeoScientific-logo-dark.png',
       },
       items: [
         {
