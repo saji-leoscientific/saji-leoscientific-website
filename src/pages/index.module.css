@@ -25,7 +25,7 @@
   justify-content: center;
 }
 
-.slideshower{
+/* .slideshower{
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
@@ -55,7 +55,7 @@
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
-}
+} */
 
 /* .hoverzoom{
 
