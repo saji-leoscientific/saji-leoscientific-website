@@ -11,7 +11,8 @@ import { SliderData } from './SliderData';
 const slideProperties = {
   duration: 7000,
   transitionDuration: 1000,
-  //infinte: true,
+  defaultIndex: 0,
+  infinite: true,
   indicators: true,
   canSwipe: true,
   pauseOnHover: true,
