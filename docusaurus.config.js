@@ -12,7 +12,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   // favicon: 'img/favicon.ico',
   favicon: 'img/LeoScientific-logo-light.ico',
-  favicon: 'img/LeoScientific-logo-dark.ico',
+  favicon: 'img/LeoScientific-logo-light.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
