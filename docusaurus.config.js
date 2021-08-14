@@ -28,10 +28,10 @@ module.exports = {
     navbar: {
       title: 'Leo Scientific',
       logo: {
-        alt: 'Leo Scientific Logo',
+        alt: 'LeoScientific Logo',
         // src: 'img/logo.svg',
         src: 'img/LeoScientific-logo-light.png',
-//         srcDark: 'img/LeoScientific-logo-dark.png',
+        srcDark: 'img/Leoscientific-logo-dark.png',
       },
       items: [
         {
