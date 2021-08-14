@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide } from '/react-slideshow-image';
+import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import'./ReactSlider.css'
 import { SliderData } from './SliderData';
@@ -10,6 +10,7 @@ import { SliderData } from './SliderData';
 
 const slideProperties = {
   duration: 7000,
+  transitionDuration: 1000,
   //infinte: true,
   indicators: true,
   canSwipe: true,
