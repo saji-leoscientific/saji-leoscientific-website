@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://saji-leoscientific.github.io/saji-leoscientific-website/blog"/>
     <subtitle>Leo Scientific Blog</subtitle>
-    <icon>https://saji-leoscientific.github.io/saji-leoscientific-website/img/LeoScientific-logo-light.png</icon>
+    <icon>https://saji-leoscientific.github.io/saji-leoscientific-website/img/LeoScientific-logo-dark.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
