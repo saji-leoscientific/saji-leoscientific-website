@@ -11,7 +11,7 @@ module.exports = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   // favicon: 'img/favicon.ico',
-  favicon: 'img/LeoScientific-logo-dark.png',
+  favicon: 'img/LeoScientific-logo-light.png',
   organizationName: 'saji', // Usually your GitHub org/user name.
   projectName: 'saji-leoscientific-website', // Usually your repo name.
   themeConfig: {
