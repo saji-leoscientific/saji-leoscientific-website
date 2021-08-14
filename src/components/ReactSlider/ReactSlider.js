@@ -12,6 +12,7 @@ const slideProperties = {
   duration: 7000,
   transitionDuration: 1000,
   defaultIndex: 0,
+  Easing: 'ease-in',
   infinite: true,
   indicators: true,
   canSwipe: true,
