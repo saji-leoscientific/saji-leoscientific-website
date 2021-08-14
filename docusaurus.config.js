@@ -37,7 +37,7 @@ module.exports = {
       items: [
         {
           // type: 'doc',
-          to: '/docs/Contact Details/Contact Details',
+          to: '/docs/Contact Details/Contact_Details',
           position: 'right',
           label: 'Contact-Details',
         },
