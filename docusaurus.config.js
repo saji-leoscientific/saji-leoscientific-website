@@ -11,8 +11,8 @@ module.exports = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   // favicon: 'img/favicon.ico',
-  favicon: 'img/LeoScientific-logo-light.svg',
-  favicon: 'img/LeoScientific-logo-dark.png',
+  favicon: 'img/LeoScientific-logo-light.ico',
+  favicon: 'img/LeoScientific-logo-dark.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
