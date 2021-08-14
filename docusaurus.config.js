@@ -6,7 +6,7 @@ module.exports = {
   title: 'Leo Scientific',
   tagline: 'View Products with a click',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // favicon: 'img/favicon.ico',
