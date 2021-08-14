@@ -35,17 +35,28 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
+          // type: 'doc',
+          to: '/docs/Contact Details/Contact Details',
+          position: 'right',
+          label: 'Contact-Details',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://leoscientific.in/',
+          label: 'Our-Other-Page',
           position: 'right',
         },
+        // {
+        //   type: 'doc',
+        //   docId: 'intro',
+        //   position: 'right',
+        //   label: 'Tutorial',
+        // },
+        // {to: '/blog', label: 'Blog', position: 'left'},
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
