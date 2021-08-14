@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Leo Scientific',
   tagline: 'View Products with a click',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://saji-leoscientific.github.io/saji-leoscientific-website/',
   // baseUrl: '/',
   baseUrl: '/saji-leoscientific-website/',
   onBrokenLinks: 'throw',
