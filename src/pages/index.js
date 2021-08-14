@@ -44,9 +44,10 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      {setTimeout(function() {
+
+        <div className='slideshower'>  
         <Slideshow />
-      }, 1000)}
+        </div>
       
       {/* <p>Basldfksd</p> */}           
       <HomepageHeader />

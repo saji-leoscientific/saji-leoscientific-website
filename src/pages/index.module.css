@@ -25,6 +25,10 @@
   justify-content: center;
 }
 
+.slideshower{
+transition-delay: 2s;  
+}
+
 /* .hoverzoom{
 
       -webkit-transition: all 2s ease !important; 
