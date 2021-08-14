@@ -5,10 +5,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Leo Scientific',
   tagline: 'View Products with a click',
-  url: 'https://saji-leoscientific.github.io/saji-leoscientific-website/',
+  url: 'https://saji-leoscientific.github.io',
   // baseUrl: '/',
   baseUrl: '/saji-leoscientific-website/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   // favicon: 'img/favicon.ico',
   favicon: 'img/LeoScientific-logo-light.svg',
@@ -37,7 +37,7 @@ module.exports = {
       items: [
         {
           // type: 'doc',
-          to: '/docs/Contact Details/Contact_Details',
+          to: '/docs/Contact Details/Contact Details',
           position: 'right',
           label: 'Contact-Details',
         },

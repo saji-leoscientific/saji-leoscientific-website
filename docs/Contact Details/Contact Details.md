@@ -5,13 +5,14 @@ sidebar_position: 100
 import ImageSwitcher from '../../src/components/ContactDetailsImageSwitcher/ContactDetailsImageSwitcher.js';
 import '../../src/components/ContactDetailsImageSwitcher/ContactDetailsImageSwitcher.css';
 import './Contact-Details.css'
+import logolight from '../../static/img/LeoScientific-logo-light.svg'
+import logodark from '../../static/img/LeoScientific-logo-dark.png'
 
 
 
+<!-- ![](../../static/img/Leoscientific-logo-dark.png)
 
-<!-- ![](../../static/img/Leoscientific-logo-dark.png) -->
-
-<!-- ![](../../static/img/Leoscientific-logo-light.svg) -->
+![](../../static/img/Leoscientific-logo-light.svg) -->
 
 
 <!-- <ImageSwitcher 
@@ -21,8 +22,13 @@ darkImageSrc="//satyr.io/300/white?text=DarkMode"/> -->
 
 <div className="div-center-alignments">
 <ImageSwitcher 
-lightImageSrc="../../static/img/LeoScientific-logo-light.svg"
-darkImageSrc="../../static/img/Leoscientific-logo-dark.png"/>
+lightImageSrc={logolight}
+darkImageSrc={logodark}
+//lightImageSrc="../../static/img/LeoScientific-logo-light.svg" // baseUrl: '/'?
+//darkImageSrc="../../static/img/Leoscientific-logo-dark.png"   // baseUrl: '/'?
+//lightImageSrc="../../../static/img/LeoScientific-logo-light.svg" // baseUrl: '/saji-leoscientific-website/'
+//darkImageSrc="../../../static/img/Leoscientific-logo-dark.png" // baseUrl: '/saji-leoscientific-website/'
+/>
 </div>
 
 ### Contact us by Call 
