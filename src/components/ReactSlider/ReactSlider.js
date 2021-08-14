@@ -9,7 +9,7 @@ import { SliderData } from './SliderData';
 // ];
 
 const slideProperties = {
-  duration: 2000,
+  duration: 7000,
   //infinte: true,
   indicators: true,
   canSwipe: true,
