@@ -24,7 +24,7 @@ jobs:
       run: yarn
 #       run: npm i
     - name: Latest Version of Docusaurus Installation  !!
-      run:  yarn install @docusaurus/core@latest @docusaurus/preset-classic@latest
+      run:  yarn @docusaurus/core@latest @docusaurus/preset-classic@latest
     - name: Check and Update Packages !!
       run: yarn upgrade   
     - name: Docusaurus 2 Building Process
