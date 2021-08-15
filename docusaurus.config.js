@@ -8,7 +8,7 @@ module.exports = {
   url: 'https://saji-leoscientific.github.io/',
   // baseUrl: '/',
   baseUrl: '/saji-leoscientific-website/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   //favicon: 'img/Leoscientific-logo-dark.png ',
