@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: Windows-2021
+    runs-on: Ubuntu
     strategy:
       matrix:
         node-version: [14.x]
