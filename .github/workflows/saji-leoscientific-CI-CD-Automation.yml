@@ -9,20 +9,22 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2019
+    runs-on: Windows-2019
     strategy:
       matrix:
-        node-version: [14.x.x]
+        node-version: [14.x]
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Check and Update Packages
+      run: yarn upgrade   
     - name: Installation
       run: yarn
 #       run: npm i
-    - name: Docusaurus 2 Build
+    - name: Docusaurus 2 Building Process
       run: yarn build
 #       run: npm run build
     - name: Deploy
