@@ -41,9 +41,7 @@ export default function Home() {
     //style={{position:"absolute"}}
     >
       
-    {/* <div className='slideshower'>   */}
-    <Slideshow />
-        {/* </div> */}
+   
 
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -55,8 +53,13 @@ export default function Home() {
       <HomepageHeader />
 
       <main>
+
+         {/* <div className='slideshower'>   */}
+        <Slideshow />
+        {/* </div> */}
         <HomepageFeatures />
       </main>
+      
     </Layout>
     </div>
   );
