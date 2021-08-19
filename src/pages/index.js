@@ -42,75 +42,67 @@ export default function Home() {
 useEffect(() => {
   setTimeout(() => {
     setLoading(false);
-  }, 10);
+  }, 1);
 }, []);
 
 ////////////////////////
 
   const {siteConfig} = useDocusaurusContext();
-//   { setTimeout(() => {
-//   return (
+  return (
     
-//     <div 
-//     //style={{position:"absolute"}}
-//     >
+    <div 
+    //style={{position:"absolute"}}
+    >
       
-//     {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
 
-//     <Layout
-//       title={`Hello from ${siteConfig.title}`}
-//       description="Description will go into a meta tag in <head />">
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
 
-//         {/* <div className='slideshower'>   */}
-//         <Slideshow />
-//         {/* </div> */}
+        {/* <div className='slideshower'>   */}
+        <Slideshow />
+        {/* </div> */}
       
-//       {/* <p>Basldfksd</p> */}           
-//       <HomepageHeader />
+      {/* <p>Basldfksd</p> */}           
+      <HomepageHeader />
 
-//       <main>
-//         <HomepageFeatures />
-//       </main>
-//     </Layout>
-//     </div>
-  
-//   );
-// }, 1000);
-// }
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+    </div>
 
 
 ///////////////////////////////////
 
-  return (
+  // return (
     
-    // <div 
-    // //style={{position:"absolute"}}
-    // >
+  //   <div 
+  //   //style={{position:"absolute"}}
+  //   >
       
-    <div>{loading ? "loading..." & console.log('loading...') : 
+  //   <div>{loading ?  console.log('loading...') : 
     
-    <Layout
-    title={`Hello from ${siteConfig.title}`}
-    description="Description will go into a meta tag in <head />">
+  //   <Layout
+  //   title={`Hello from ${siteConfig.title}`}
+  //   description="Description will go into a meta tag in <head />">
 
-      {/* <div className='slideshower'>   */}
-      <Slideshow />
-      {/* </div> */}
+  //     {/* <div className='slideshower'>   */}
+  //     <Slideshow />
+  //     {/* </div> */}
     
-    {/* <p>Basldfksd</p> */}           
-    <HomepageHeader />
+  //   {/* <p>Basldfksd</p> */}           
+  //   <HomepageHeader />
 
-    <main>
-      <HomepageFeatures />
-    </main>
-  </Layout>
+  //   <main>
+  //     <HomepageFeatures />
+  //   </main>
+  // </Layout>
    
-    }
-    </div>
+  //   }
+  //   </div>
 
-
-    // </div>
-  
-  );
-
+  // </div>
+);
 };
