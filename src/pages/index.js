@@ -55,7 +55,6 @@ useEffect(() => {
     //style={{position:"absolute"}}
     >
       
-
     {/* <div>{loading ? "loading..." : "hello"}</div>; */}
 
     <Layout
