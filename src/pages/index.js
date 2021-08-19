@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
-
 import Slideshow from '../components/ReactSlider/ReactSlider';
+
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -26,7 +26,7 @@ function HomepageHeader() {
           style={{backgroundColor:"skyblue", color:"#505050"}}
             className="button button--secondary button--lg btncolor"
             to="/docs/intro">
-            Our Products
+            Products Page
           </Link>
         </div>
       </div>
@@ -35,11 +35,26 @@ function HomepageHeader() {
 }
 
 export default function Home() {
+////////////////////////
+  const [loading, setLoading] = useState(true);
+////////////////////////
+
+useEffect(() => {
+  setTimeout(() => {
+    setLoading(false);
+  }, 2000);
+}, []);
+
+////////////////////////
+
   const {siteConfig} = useDocusaurusContext();
   return (
+    
     <div 
     //style={{position:"absolute"}}
     >
+      
+    <div>{loading ? "loading..." : "hello"}</div>;
 
     <Layout
       title={`Hello from ${siteConfig.title}`}
