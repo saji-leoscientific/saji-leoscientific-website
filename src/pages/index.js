@@ -44,7 +44,7 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-
+        <main>
         {/* <div className='slideshower'>   */}
         <Slideshow />
         {/* </div> */}
@@ -52,7 +52,7 @@ export default function Home() {
       {/* <p>Basldfksd</p> */}           
       <HomepageHeader />
 
-      <main>
+      
         <HomepageFeatures />
       </main>
     </Layout>
