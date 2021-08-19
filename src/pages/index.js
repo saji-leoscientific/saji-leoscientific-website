@@ -54,11 +54,11 @@ export default function Home() {
 
       <main>
 
-        <HomepageHeader />  
-
          {/* <div className='slideshower'>   */}
         <Slideshow />
         {/* </div> */}
+
+        <HomepageHeader />
         
         <HomepageFeatures />
       </main>
