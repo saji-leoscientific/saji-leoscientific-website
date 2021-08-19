@@ -10,8 +10,8 @@ module.exports = {
   baseUrl: '/saji-leoscientific-website/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  //favicon: 'img/Leoscientific-logo-dark.png ',
+  //favicon: 'img/favicon.ico',
+  favicon: 'img/Leoscientific-logo-dark.png ',
   organizationName: 'Leoscientific-India', // Usually your GitHub org/user name.
   projectName: 'saji-leoscientific-website', // Usually your repo name.
   themeConfig: {
