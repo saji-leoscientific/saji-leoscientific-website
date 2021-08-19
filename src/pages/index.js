@@ -44,12 +44,21 @@ useEffect(() => {
     setLoading(false);
   }, 1000);
 }, []);
+
 ////////////////////////
-function pageRender () {
-  return(
-  setTimeout(() => {
-  <>
- <Layout
+
+  const {siteConfig} = useDocusaurusContext();
+  { setTimeout(() => {
+  return (
+    
+    <div 
+    //style={{position:"absolute"}}
+    >
+      
+
+    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+    <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
 
@@ -64,24 +73,9 @@ function pageRender () {
         <HomepageFeatures />
       </main>
     </Layout>
-  </>
-   }, 1000)
-   );
-}
-////////////////////////
-
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    
-    <div 
-    //style={{position:"absolute"}}
-    onLoad={pageRender} 
-    >
-      
-
-    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
-
-   
     </div>
+  
   );
+}, 1000);
 }
+};
