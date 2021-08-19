@@ -11,9 +11,9 @@ import Slideshow from '../components/ReactSlider/ReactSlider';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--transparent', styles.heroBanner)}
-    style={{background: "transparent", position:"absolute", top:"20px", marginLeft:"5px", textAlign:"center", cursor:"default"}}
-    >
+    // <header className={clsx('hero hero--transparent', styles.heroBanner)}
+    // style={{background: "transparent", position:"absolute", top:"20px", marginLeft:"5px", textAlign:"center", cursor:"default"}}
+    // >
       <div className="container" >
         <h1 className="hero_"
         style={{color:"#505050", cursor:"default"}} // top badge color
