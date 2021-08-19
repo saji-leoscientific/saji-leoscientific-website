@@ -42,7 +42,7 @@ export default function Home() {
 useEffect(() => {
   setTimeout(() => {
     setLoading(false);
-  }, 1000);
+  }, 10);
 }, []);
 
 ////////////////////////
@@ -83,36 +83,33 @@ useEffect(() => {
 
   return (
     
-    <div 
-    //style={{position:"absolute"}}
-    >
+    // <div 
+    // //style={{position:"absolute"}}
+    // >
       
     <div>{loading ? "loading..." : 
-    <>
-    {/* <div className='slideshower'>   */}
-    <Slideshow />
-    {/* </div> */}
-    </>
-  
+    
+    <Layout
+    title={`Hello from ${siteConfig.title}`}
+    description="Description will go into a meta tag in <head />">
+
+      {/* <div className='slideshower'>   */}
+      <Slideshow />
+      {/* </div> */}
+    
+    {/* <p>Basldfksd</p> */}           
+    <HomepageHeader />
+
+    <main>
+      <HomepageFeatures />
+    </main>
+  </Layout>
+   
     }
     </div>
 
-<Layout
-title={`Hello from ${siteConfig.title}`}
-description="Description will go into a meta tag in <head />">
 
-  
-
-{/* <p>Basldfksd</p> */}           
-<HomepageHeader />
-
-<main>
-  <HomepageFeatures />
-</main>
-</Layout>
-
-
-    </div>
+    // </div>
   
   );
 
