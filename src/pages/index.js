@@ -57,9 +57,10 @@ export default function Home() {
          {/* <div className='slideshower'>   */}
         <Slideshow />
         {/* </div> */}
+        
         <HomepageFeatures />
       </main>
-      
+
     </Layout>
     </div>
   );
