@@ -50,9 +50,11 @@ export default function Home() {
         
       
       {/* <p>Basldfksd</p> */}           
-      <HomepageHeader />
+     
 
       <main>
+
+        <HomepageHeader />  
 
          {/* <div className='slideshower'>   */}
         <Slideshow />
