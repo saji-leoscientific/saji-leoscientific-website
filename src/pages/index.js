@@ -46,6 +46,7 @@ useEffect(() => {
 }, []);
 ////////////////////////
 function pageRender () {
+  return(
   setTimeout(() => {
   <>
  <Layout
@@ -64,8 +65,8 @@ function pageRender () {
       </main>
     </Layout>
   </>
-   }, 1000);
-
+   }, 1000)
+   );
 }
 ////////////////////////
 
