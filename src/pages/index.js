@@ -42,21 +42,13 @@ export default function Home() {
 useEffect(() => {
   setTimeout(() => {
     setLoading(false);
-  }, 2000);
+  }, 1000);
 }, []);
-
 ////////////////////////
-
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    
-    <div 
-    //style={{position:"absolute"}}
-    >
-      
-    <div>{loading ? "loading..." : "hello"}</div>;
-
-    <Layout
+function pageRender () {
+  setTimeout(() => {
+  <>
+ <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
 
@@ -71,6 +63,24 @@ useEffect(() => {
         <HomepageFeatures />
       </main>
     </Layout>
+  </>
+   }, 1000);
+
+}
+////////////////////////
+
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    
+    <div 
+    //style={{position:"absolute"}}
+    onLoad={pageRender} 
+    >
+      
+
+    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+   
     </div>
   );
 }
