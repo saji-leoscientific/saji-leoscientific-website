@@ -48,33 +48,69 @@ useEffect(() => {
 ////////////////////////
 
   const {siteConfig} = useDocusaurusContext();
-  { setTimeout(() => {
+//   { setTimeout(() => {
+//   return (
+    
+//     <div 
+//     //style={{position:"absolute"}}
+//     >
+      
+//     {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+//     <Layout
+//       title={`Hello from ${siteConfig.title}`}
+//       description="Description will go into a meta tag in <head />">
+
+//         {/* <div className='slideshower'>   */}
+//         <Slideshow />
+//         {/* </div> */}
+      
+//       {/* <p>Basldfksd</p> */}           
+//       <HomepageHeader />
+
+//       <main>
+//         <HomepageFeatures />
+//       </main>
+//     </Layout>
+//     </div>
+  
+//   );
+// }, 1000);
+// }
+
+
+///////////////////////////////////
+
   return (
     
-    <div 
-    //style={{position:"absolute"}}
-    >
+    // <div 
+    // //style={{position:"absolute"}}
+    // >
       
-    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
-
+    <div>{loading ? "loading..." : 
+    
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    title={`Hello from ${siteConfig.title}`}
+    description="Description will go into a meta tag in <head />">
 
-        {/* <div className='slideshower'>   */}
-        <Slideshow />
-        {/* </div> */}
-      
-      {/* <p>Basldfksd</p> */}           
-      <HomepageHeader />
+      {/* <div className='slideshower'>   */}
+      <Slideshow />
+      {/* </div> */}
+    
+    {/* <p>Basldfksd</p> */}           
+    <HomepageHeader />
 
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+    <main>
+      <HomepageFeatures />
+    </main>
+  </Layout>
+   
+    }
     </div>
+
+
+    // </div>
   
   );
-}, 1000);
-}
+
 };
