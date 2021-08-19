@@ -40,19 +40,21 @@ export default function Home() {
     <div 
     //style={{position:"absolute"}}
     >
+      
+    {/* <div className='slideshower'>   */}
+    <Slideshow />
+        {/* </div> */}
 
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-        <main>
-        {/* <div className='slideshower'>   */}
-        <Slideshow />
-        {/* </div> */}
+
+        
       
       {/* <p>Basldfksd</p> */}           
       <HomepageHeader />
 
-      
+      <main>
         <HomepageFeatures />
       </main>
     </Layout>
