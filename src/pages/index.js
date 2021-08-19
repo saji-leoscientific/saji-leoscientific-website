@@ -44,13 +44,12 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-
-        <div className='slideshower'>  
+        {/* <HomepageHeader />  */}
+        {/* <div className='slideshower'>   */}
         <Slideshow />
-        </div>
+        {/* </div> */}
       
       {/* <p>Basldfksd</p> */}           
-      {/* <HomepageHeader /> */}
 
       <main>
         <HomepageFeatures />
