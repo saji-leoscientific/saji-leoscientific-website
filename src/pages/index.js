@@ -87,7 +87,7 @@ useEffect(() => {
     // //style={{position:"absolute"}}
     // >
       
-    <div>{loading ? "loading..." : 
+    <div>{loading ? "loading..." & console.log('loading...') : 
     
     <Layout
     title={`Hello from ${siteConfig.title}`}
