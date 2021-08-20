@@ -77,71 +77,37 @@ export default function Home() {
 ////////////////////////
 
   const {siteConfig} = useDocusaurusContext();
-  return (
-    
-    // <div 
-    // //style={{position:"absolute"}}
-    // >
-      
-    // {/* <div>{loading ? "loading..." : "hello"}</div>; */}
-
-    // <Layout
-    //   title={`Hello from ${siteConfig.title}`}
-    //   description="Description will go into a meta tag in <head />">
-
-    //     {/* <div className='slideshower'>   */}
-    //     <Slideshow />
-    //     {/* </div> */}
-      
-    //   {/* <p>Basldfksd</p> */}           
-    //   <HomepageHeader />
-
-    //   <main>
-    //     <HomepageFeatures />
-    //   </main>
-    // </Layout>
-    // </div>
-
-    <div 
-    //style={{position:"absolute"}}
-    // onLoad={trial()}
-    >
-      
-  
-    <Layout
-    title={`Hello from ${siteConfig.title}`}
-    description="Description will go into a meta tag in <head />">
-
-      {/* <div className='slideshower'>   */}
-      <Slideshow />
-      {/* </div> */}
-    
-    {/* <p>Basldfksd</p> */}           
-    <HomepageHeader />
-
-    <main>
-      <HomepageFeatures />
-    </main>
-  </Layout>
- 
-
-    
-    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
-
- 
-    </div>
-
-
-///////////////////////////////////
-
   // return (
     
+  //   // <div 
+  //   // //style={{position:"absolute"}}
+  //   // >
+      
+  //   // {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+  //   // <Layout
+  //   //   title={`Hello from ${siteConfig.title}`}
+  //   //   description="Description will go into a meta tag in <head />">
+
+  //   //     {/* <div className='slideshower'>   */}
+  //   //     <Slideshow />
+  //   //     {/* </div> */}
+      
+  //   //   {/* <p>Basldfksd</p> */}           
+  //   //   <HomepageHeader />
+
+  //   //   <main>
+  //   //     <HomepageFeatures />
+  //   //   </main>
+  //   // </Layout>
+  //   // </div>
+
   //   <div 
   //   //style={{position:"absolute"}}
+  //   // onLoad={trial()}
   //   >
       
-  //   <div>{loading ?  console.log('loading...') : 
-    
+  
   //   <Layout
   //   title={`Hello from ${siteConfig.title}`}
   //   description="Description will go into a meta tag in <head />">
@@ -157,11 +123,50 @@ export default function Home() {
   //     <HomepageFeatures />
   //   </main>
   // </Layout>
-   
-  //   }
+ 
+
+    
+  //   {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+ 
   //   </div>
 
-  // </div>
+
+///////////////////////////////////
+
+  return (
+    
+    <div 
+    //style={{position:"absolute"}}
+    >
+      
+   
+    
+    <Layout
+    title={`Hello from ${siteConfig.title}`}
+    description="Description will go into a meta tag in <head />">
+
+    <div>{loading ?  console.log('loading...') :   
+    <>
+    {/* <div className='slideshower'>   */}
+    <Slideshow />
+    {/* </div> */}
+    
+    {/* <p>Basldfksd</p> */}          
+    <HomepageHeader />
+
+    <main>
+      <HomepageFeatures />
+    </main>
+    </> 
+    }
+    </div>
+
+  </Layout>
+   
+    
+
+  </div>
   
 );
 };
