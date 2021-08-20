@@ -153,7 +153,7 @@ useEffect(() => {
     {/* </div> */}
     
     {/* <p>Basldfksd</p> */}          
-    <HomepageHeader />
+    {/* <HomepageHeader /> */}
 
     <main>
       <HomepageFeatures />
