@@ -23,6 +23,7 @@ const slideProperties = {
 
 
 const Slideshow = () => {
+  setTimeout(() => {
     return (
   
         <Slide easing="ease" {...slideProperties}>
@@ -69,6 +70,7 @@ const Slideshow = () => {
         </Slide>
       
     )
+  }, 0.0001);
 };
 
 export default Slideshow;
