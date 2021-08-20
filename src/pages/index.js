@@ -107,13 +107,16 @@ useEffect(() => {
     // onLoad={trial()}
     >
       
-  
+   {/* <div className='slideshower'>   */}
+   <Slideshow />
+      {/* </div> */}
+
     <Layout
     title={`Hello from ${siteConfig.title}`}
     description="Description will go into a meta tag in <head />">
-
+      
       {/* <div className='slideshower'>   */}
-      <Slideshow />
+      {/* <Slideshow /> */}
       {/* </div> */}
     
     {/* <p>Basldfksd</p> */}           
