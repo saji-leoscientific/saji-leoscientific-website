@@ -106,11 +106,14 @@ useEffect(() => {
     //style={{position:"absolute"}}
     // onLoad={trial()}
     >
-      
+   {   
+   setTimeout(() => {
    {/* <div className='slideshower'>   */}
    <Slideshow />
       {/* </div> */}
-
+    }, 10)
+   }  
+      
     <Layout
     title={`Hello from ${siteConfig.title}`}
     description="Description will go into a meta tag in <head />">
