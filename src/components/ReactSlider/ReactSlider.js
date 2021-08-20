@@ -23,9 +23,10 @@ const slideProperties = {
 
 
 const Slideshow = () => {
-  setTimeout(() => {
+ 
     return (
-  
+      setTimeout(() => {
+
         <Slide easing="ease" {...slideProperties}>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${SliderData[0]})`}}>
@@ -69,8 +70,9 @@ const Slideshow = () => {
           </div> */}
         </Slide>
       
+    }, 0.0001)
     )
-  }, 0.0001);
+ 
 };
 
 export default Slideshow;
