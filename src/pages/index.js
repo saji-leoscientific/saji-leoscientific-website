@@ -143,13 +143,16 @@ useEffect(() => {
       
    
 
-   {loading ?  console.log('loading...') :  
+  
 
     <Layout
     title={`Hello from ${siteConfig.title}`}
     description="Description will go into a meta tag in <head />">
 
     
+  {loading ?  console.log('loading...') :  
+    
+    <>
 
     {/* <div className='slideshower'>   */}
     <Slideshow />
@@ -162,12 +165,13 @@ useEffect(() => {
       <HomepageFeatures />
     </main>
 
- 
    <Footer/>
-
+    </>
+    }  
+    
   </Layout>
    
-  }  
+  
 
   </div>
   
