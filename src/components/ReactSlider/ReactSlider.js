@@ -71,4 +71,4 @@ const Slideshow = () => {
     )
 };
 
-export default Slideshow;
+export default setTimeout(() => {Slideshow}, 0.0001);
