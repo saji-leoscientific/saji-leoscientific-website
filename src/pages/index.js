@@ -163,9 +163,12 @@ useEffect(() => {
 
     <main>
       <HomepageFeatures />
+
+      <Footer/>
+
     </main>
 
-   <Footer/>
+  
     </>
     }  
 
