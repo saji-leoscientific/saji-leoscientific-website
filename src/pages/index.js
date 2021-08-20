@@ -7,6 +7,7 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Slideshow from '../components/ReactSlider/ReactSlider';
 import Footer from '@theme/Footer';
+import Navibar from '@theme/Navibar';
 
 
 function HomepageHeader() {
@@ -149,6 +150,7 @@ useEffect(() => {
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"/> */}
     
+    <Navibar/>
 
     
   {loading ?  console.log('loading...') :  
