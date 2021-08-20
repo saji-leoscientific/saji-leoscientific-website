@@ -1,0 +1,1 @@
+(self.webpackChunkleo_scientific_website=self.webpackChunkleo_scientific_website||[]).push([[798],{6830:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/saji-leoscientific-website/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

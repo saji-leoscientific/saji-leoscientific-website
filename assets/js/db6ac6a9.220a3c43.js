@@ -1,0 +1,1 @@
+(self.webpackChunkleo_scientific_website=self.webpackChunkleo_scientific_website||[]).push([[984],{8426:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/saji-leoscientific-website/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/saji-leoscientific-website/blog/tags/hello"}')}}]);
