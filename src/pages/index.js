@@ -104,7 +104,7 @@ window.onload= function trial () {
 
     <div 
     //style={{position:"absolute"}}
-    onLoad={trial()}
+    onLoad={()=>trial()}
     >
       
 
