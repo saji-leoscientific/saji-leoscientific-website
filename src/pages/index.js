@@ -35,15 +35,15 @@ function HomepageHeader() {
 }
 
 export default function Home() {
+//////////////////////
+  const [loading, setLoading] = useState(true);
 ////////////////////////
-//   const [loading, setLoading] = useState(true);
-// ////////////////////////
 
-// useEffect(() => {
-//   setTimeout(() => {
-//     setLoading(false);
-//   }, 0.0001);
-// }, []);
+useEffect(() => {
+  setTimeout(() => {
+    setLoading(false);
+  }, 0.0001);
+}, []);
 
 ////////////////////////
 
