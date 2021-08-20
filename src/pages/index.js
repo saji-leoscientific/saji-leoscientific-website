@@ -146,8 +146,8 @@ useEffect(() => {
   
 
     <Layout
-    title={`Hello from ${siteConfig.title}`}
-    description="Description will go into a meta tag in <head />">
+    title={`${siteConfig.title}`}
+    description="Description will go into a meta tag in <head />"/>
 
     
   {loading ?  console.log('loading...') :  
@@ -168,8 +168,8 @@ useEffect(() => {
    <Footer/>
     </>
     }  
-    
-  </Layout>
+
+  {/* </Layout> */}
    
   
 
