@@ -19,16 +19,27 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+        
+        ###################################### LAST 
             
-    - name: Latest Version of Docusaurus Installation  !!
-      run:  yarn add @docusaurus/core@latest @docusaurus/preset-classic@latest
-    - name: Installation
-      run: yarn
+#     - name: Latest Version of Docusaurus Installation  !!
+#       run:  yarn add @docusaurus/core@latest @docusaurus/preset-classic@latest
+#     - name: Installation
+#       run: yarn
+      
+        ######################################
+      
 #       run: npm i
-    - name: Check and Update Packages !!
-      run: yarn upgrade   
-    - name: Docusaurus 2 Building Process
-      run: yarn build
+
+        ###################################### LAST
+
+#     - name: Check and Update Packages !!
+#       run: yarn upgrade   
+#     - name: Docusaurus 2 Building Process
+#       run: yarn build
+      
+      ######################################
+      
 #       run: npm run build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
