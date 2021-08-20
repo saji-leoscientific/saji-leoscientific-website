@@ -47,27 +47,27 @@ useEffect(() => {
 
 ////////////////////////
 
-window.onload= function trial () {
-  setTimeout(() => {
-  return(
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+// window.onload= function trial () {
+//   setTimeout(() => {
+//   return(
+//     <Layout
+//       title={`Hello from ${siteConfig.title}`}
+//       description="Description will go into a meta tag in <head />">
 
-        {/* <div className='slideshower'>   */}
-        <Slideshow />
-        {/* </div> */}
+//         {/* <div className='slideshower'>   */}
+//         <Slideshow />
+//         {/* </div> */}
       
-      {/* <p>Basldfksd</p> */}           
-      <HomepageHeader />
+//       {/* <p>Basldfksd</p> */}           
+//       <HomepageHeader />
 
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  ) 
-  }, 10);
-}
+//       <main>
+//         <HomepageFeatures />
+//       </main>
+//     </Layout>
+//   ) 
+//   }, 10);
+// }
 /////////////////////////////
 
 // window.onload = function exampleFunction() {
