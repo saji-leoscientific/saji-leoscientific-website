@@ -144,7 +144,23 @@ useEffect(() => {
     }  
 
     
-    
+    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
+
+        {/* <div className='slideshower'>   */}
+        <Slideshow />
+        {/* </div> */}
+      
+      {/* <p>Basldfksd</p> */}           
+      <HomepageHeader />
+
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
     </div>
 
 
