@@ -7,7 +7,7 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Slideshow from '../components/ReactSlider/ReactSlider';
 import Footer from '@theme/Footer';
-import Navbar from '@theme/Navbar';
+// import Navbar from '@theme/Navbar';
 
 
 function HomepageHeader() {
@@ -152,9 +152,9 @@ useEffect(() => {
     
     {/* <Header/> */}
     
-    <Navbar
+    {/* <Navbar
     title={`${siteConfig.title}`}
-    description="Description will go into a meta tag in <head />"/>
+    description="Description will go into a meta tag in <head />"/> */}
 
 
     
