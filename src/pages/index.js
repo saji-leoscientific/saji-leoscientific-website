@@ -42,7 +42,7 @@ export default function Home() {
 useEffect(() => {
   setTimeout(() => {
     setLoading(false);
-  }, 0.0001);
+  }, 0.0000001);
 }, []);
 
 ////////////////////////
