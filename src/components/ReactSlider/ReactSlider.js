@@ -68,8 +68,7 @@ const Slideshow = () => {
           </div> */}
         </Slide>
       
-      
     )
 };
 
-export default setTimeout(() => {Slideshow}, 0.0001);
+setTimeout(() => {export default Slideshow}, 0.0001);
