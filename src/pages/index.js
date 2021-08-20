@@ -104,7 +104,7 @@ window.onload= function trial () {
 
     <div 
     //style={{position:"absolute"}}
-    onLoad={() => trial()}
+    onLoad={trial()}
     >
       
 
@@ -112,7 +112,21 @@ window.onload= function trial () {
     
     {/* <div>{loading ? "loading..." : "hello"}</div>; */}
 
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
 
+        {/* <div className='slideshower'>   */}
+        <Slideshow />
+        {/* </div> */}
+      
+      {/* <p>Basldfksd</p> */}           
+      <HomepageHeader />
+
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
     </div>
 
 
