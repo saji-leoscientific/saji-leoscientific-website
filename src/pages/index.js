@@ -47,7 +47,7 @@ useEffect(() => {
 
 ////////////////////////
 
-function trial () {
+window.onload= function trial () {
   setTimeout(() => {
   return(
     <Layout
@@ -104,9 +104,12 @@ function trial () {
 
     <div 
     //style={{position:"absolute"}}
-    onLoad={trial}
+    onLoad={trial()}
     >
       
+
+
+    
     {/* <div>{loading ? "loading..." : "hello"}</div>; */}
 
     <Layout
