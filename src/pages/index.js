@@ -150,7 +150,7 @@ useEffect(() => {
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"/> */}
     
-    <Header/>
+    {/* <Header/> */}
     
     <Navbar
     title={`${siteConfig.title}`}
