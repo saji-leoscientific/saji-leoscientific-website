@@ -36,14 +36,14 @@ function HomepageHeader() {
 
 export default function Home() {
 ////////////////////////
-  const [loading, setLoading] = useState(true);
-////////////////////////
+//   const [loading, setLoading] = useState(true);
+// ////////////////////////
 
-useEffect(() => {
-  setTimeout(() => {
-    setLoading(false);
-  }, 0.0001);
-}, []);
+// useEffect(() => {
+//   setTimeout(() => {
+//     setLoading(false);
+//   }, 0.0001);
+// }, []);
 
 ////////////////////////
 
@@ -77,71 +77,37 @@ useEffect(() => {
 ////////////////////////
 
   const {siteConfig} = useDocusaurusContext();
-  // return (
-    
-  //   // <div 
-  //   // //style={{position:"absolute"}}
-  //   // >
-      
-  //   // {/* <div>{loading ? "loading..." : "hello"}</div>; */}
-
-  //   // <Layout
-  //   //   title={`Hello from ${siteConfig.title}`}
-  //   //   description="Description will go into a meta tag in <head />">
-
-  //   //     {/* <div className='slideshower'>   */}
-  //   //     <Slideshow />
-  //   //     {/* </div> */}
-      
-  //   //   {/* <p>Basldfksd</p> */}           
-  //   //   <HomepageHeader />
-
-  //   //   <main>
-  //   //     <HomepageFeatures />
-  //   //   </main>
-  //   // </Layout>
-  //   // </div>
-
-  //   <div 
-  //   //style={{position:"absolute"}}
-  //   // onLoad={trial()}
-  //   >
-      
-  
-  //   <Layout
-  //   title={`Hello from ${siteConfig.title}`}
-  //   description="Description will go into a meta tag in <head />">
-
-  //     {/* <div className='slideshower'>   */}
-  //     <Slideshow />
-  //     {/* </div> */}
-    
-  //   {/* <p>Basldfksd</p> */}           
-  //   <HomepageHeader />
-
-  //   <main>
-  //     <HomepageFeatures />
-  //   </main>
-  // </Layout>
- 
-
-    
-  //   {/* <div>{loading ? "loading..." : "hello"}</div>; */}
-
- 
-  //   </div>
-
-
-///////////////////////////////////
-
   return (
     
+    // <div 
+    // //style={{position:"absolute"}}
+    // >
+      
+    // {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+    // <Layout
+    //   title={`Hello from ${siteConfig.title}`}
+    //   description="Description will go into a meta tag in <head />">
+
+    //     {/* <div className='slideshower'>   */}
+    //     <Slideshow />
+    //     {/* </div> */}
+      
+    //   {/* <p>Basldfksd</p> */}           
+    //   <HomepageHeader />
+
+    //   <main>
+    //     <HomepageFeatures />
+    //   </main>
+    // </Layout>
+    // </div>
+
     <div 
     //style={{position:"absolute"}}
+    // onLoad={trial()}
     >
       
-    <div>{loading ?  console.log('loading...') : 
-    
+  
     <Layout
     title={`Hello from ${siteConfig.title}`}
     description="Description will go into a meta tag in <head />">
@@ -157,11 +123,45 @@ useEffect(() => {
       <HomepageFeatures />
     </main>
   </Layout>
-   
-    }
+ 
+
+    
+    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+ 
     </div>
 
-  </div>
+
+///////////////////////////////////
+
+  // return (
+    
+  //   <div 
+  //   //style={{position:"absolute"}}
+  //   >
+      
+  //   <div>{loading ?  console.log('loading...') : 
+    
+  //   <Layout
+  //   title={`Hello from ${siteConfig.title}`}
+  //   description="Description will go into a meta tag in <head />">
+
+  //     {/* <div className='slideshower'>   */}
+  //     <Slideshow />
+  //     {/* </div> */}
+    
+  //   {/* <p>Basldfksd</p> */}           
+  //   <HomepageHeader />
+
+  //   <main>
+  //     <HomepageFeatures />
+  //   </main>
+  // </Layout>
+   
+  //   }
+  //   </div>
+
+  // </div>
   
 );
 };
