@@ -24,11 +24,12 @@ jobs:
             
 #     - name: Latest Version of Docusaurus Installation  !!
 #       run:  yarn add @docusaurus/core@latest @docusaurus/preset-classic@latest
-#     - name: Installation
-#       run: yarn
       
         ######################################
       
+    - name: Installation
+      run: yarn
+
 #       run: npm i
 
         ###################################### LAST
