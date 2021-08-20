@@ -107,11 +107,13 @@ useEffect(() => {
     // onLoad={trial()}
     >
    {   
+   useEffect(() => {
    setTimeout(() => {
    {/* <div className='slideshower'>   */}
    <Slideshow />
       {/* </div> */}
     }, 10)
+  }, [])
    }  
       
     <Layout
