@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Slideshow from '../components/ReactSlider/ReactSlider';
+import Footer from '@theme/Footer';
 
 
 function HomepageHeader() {
@@ -162,7 +163,7 @@ useEffect(() => {
     </main>
 
  
-   
+   <Footer/>
 
   </Layout>
    
