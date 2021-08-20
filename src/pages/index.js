@@ -47,11 +47,64 @@ useEffect(() => {
 
 ////////////////////////
 
+function trial () {
+  setTimeout(() => {
+  return(
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
+
+        {/* <div className='slideshower'>   */}
+        <Slideshow />
+        {/* </div> */}
+      
+      {/* <p>Basldfksd</p> */}           
+      <HomepageHeader />
+
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+  ) 
+  }, 10);
+}
+/////////////////////////////
+
+// window.onload = function exampleFunction() {
+  
+//   // Function to be executed
+// }
+////////////////////////
+
   const {siteConfig} = useDocusaurusContext();
   return (
     
+    // <div 
+    // //style={{position:"absolute"}}
+    // >
+      
+    // {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
+    // <Layout
+    //   title={`Hello from ${siteConfig.title}`}
+    //   description="Description will go into a meta tag in <head />">
+
+    //     {/* <div className='slideshower'>   */}
+    //     <Slideshow />
+    //     {/* </div> */}
+      
+    //   {/* <p>Basldfksd</p> */}           
+    //   <HomepageHeader />
+
+    //   <main>
+    //     <HomepageFeatures />
+    //   </main>
+    // </Layout>
+    // </div>
+
     <div 
     //style={{position:"absolute"}}
+    onLoad={trial}
     >
       
     {/* <div>{loading ? "loading..." : "hello"}</div>; */}
