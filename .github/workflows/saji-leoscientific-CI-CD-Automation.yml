@@ -34,12 +34,13 @@ jobs:
         ###################################### LAST
 
 #     - name: Check and Update Packages !!
-#       run: yarn upgrade   
-#     - name: Docusaurus 2 Building Process
-#       run: yarn build
+#       run: yarn upgrade 
       
       ######################################
       
+    - name: Docusaurus 2 Building Process
+      run: yarn build
+
 #       run: npm run build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
