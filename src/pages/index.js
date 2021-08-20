@@ -146,7 +146,7 @@ export default function Home() {
     title={`Hello from ${siteConfig.title}`}
     description="Description will go into a meta tag in <head />">
 
-    <div>{loading ?  console.log('loading...') :   
+    {loading ?  console.log('loading...') :   
     <>
     {/* <div className='slideshower'>   */}
     <Slideshow />
@@ -160,7 +160,7 @@ export default function Home() {
     </main>
     </> 
     }
-    </div>
+   
 
   </Layout>
    
