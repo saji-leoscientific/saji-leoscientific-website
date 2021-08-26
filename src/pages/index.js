@@ -6,8 +6,9 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Slideshow from '../components/ReactSlider/ReactSlider';
-import Footer from '@theme/Footer';
+import LayoutProviders from '@theme/LayoutProviders'
 import Navbar from '@theme/Navbar';
+import Footer from '@theme/Footer';
 
 
 function HomepageHeader() {
@@ -149,9 +150,12 @@ useEffect(() => {
     {/* <Layout
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"/> */}
-    <>
-    <Navbar/>
-    </>
+    <LayoutProviders>
+    <Navbar
+     title={`${siteConfig.title}`}
+     description="Description will go into a meta tag in <head />"
+    />
+    </LayoutProviders>
     {/* <Navbar
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"/> */}
