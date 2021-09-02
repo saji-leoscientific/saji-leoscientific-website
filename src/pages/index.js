@@ -138,6 +138,12 @@ useEffect(() => {
 ///////////////////////////////////
 
   return (
+
+    <>
+    <Head
+    title={`${siteConfig.title}`}
+    description="Description will go into a meta tag in <head />"
+    />  
     
     <div 
     //style={{position:"absolute"}}
@@ -145,10 +151,7 @@ useEffect(() => {
       
    
 
-    <Head
-    title={`${siteConfig.title}`}
-    description="Description will go into a meta tag in <head />"
-    />  
+    
 
     {/* <Layout
     title={`${siteConfig.title}`}
@@ -188,6 +191,8 @@ useEffect(() => {
   
 
   </div>
+  
+  </>
   
 );
 };
