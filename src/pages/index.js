@@ -158,11 +158,11 @@ useEffect(() => {
     
     
     
-    {/* <Head>
+    <Head>
     <title> {`${siteConfig.title}`} </title>
     <meta name="description" content="Description will go into a meta tag in <head />" />
     </Head>  
-     */}
+    
     <Navbar
     />
     </LayoutProviders>
