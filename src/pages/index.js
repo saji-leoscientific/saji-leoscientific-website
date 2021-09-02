@@ -12,8 +12,8 @@ import Navbar from '@theme/Navbar';
 import Footer from '@theme/Footer';
 
 import Head from '@docusaurus/Head';
-import Parent from '@theme/Parent';
-import Child from '@theme/Child';
+import Parent from '@docusaurus/Parent';
+import Child from '@docusaurus/Child';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
