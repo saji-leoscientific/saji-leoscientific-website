@@ -158,11 +158,25 @@ useEffect(() => {
     
     
     
-    <Head>
+    {/* <Head>
     <title> {`${siteConfig.title}`} </title>
     <meta name="description" content="Description will go into a meta tag in <head />" />
     </Head>  
-    
+     */}
+
+    <Parent>  
+      <Head>    
+        <title>My Title</title>    
+        <meta name="description" content="Helmet application" />  
+      </Head>  
+      <Child>    
+        <Head>      
+          <title>Nested Title</title>      
+          <meta name="description" content="Nested component" />    
+        </Head>  
+      </Child>
+    </Parent>     
+
     <Navbar
     />
     </LayoutProviders>
