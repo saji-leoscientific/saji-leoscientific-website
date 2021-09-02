@@ -12,8 +12,8 @@ import Navbar from '@theme/Navbar';
 import Footer from '@theme/Footer';
 
 import Head from '@docusaurus/Head';
-import Parent from '@docusaurus/Parent';
-import Child from '@docusaurus/Child';
+// import Parent from '@docusaurus/Parent';
+// import Child from '@docusaurus/Child';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -167,7 +167,7 @@ useEffect(() => {
     </Head>  
      */}
 
-    <Parent>  
+    {/* <Parent>  
       <Head>    
         <title>My Title</title>    
         <meta name="description" content="Helmet application" />  
@@ -178,7 +178,7 @@ useEffect(() => {
           <meta name="description" content="Nested component" />    
         </Head>  
       </Child>
-    </Parent>     
+    </Parent>      */}
 
     <Navbar
     />
