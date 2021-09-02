@@ -140,7 +140,7 @@ useEffect(() => {
   return (
 
     <>
-    <Head
+    <head
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"
     >  
@@ -192,7 +192,7 @@ useEffect(() => {
 
   </div>
 
-  </Head>
+  </head>
   </>
   
 );
