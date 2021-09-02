@@ -7,6 +7,7 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Slideshow from '../components/ReactSlider/ReactSlider';
 import LayoutProviders from '@theme/LayoutProviders'
+import Head from '@theme/Head'
 import Navbar from '@theme/Navbar';
 import Footer from '@theme/Footer';
 
@@ -138,12 +139,6 @@ useEffect(() => {
 ///////////////////////////////////
 
   return (
-
-    <>
-    <head
-    title={`${siteConfig.title}`}
-    description="Description will go into a meta tag in <head />"
-    >  
     
     <div 
     //style={{position:"absolute"}}
@@ -151,13 +146,18 @@ useEffect(() => {
       
    
 
-    
+  
 
     {/* <Layout
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"/> */}
-    <LayoutProviders>
+    <LayoutProviders
     
+    >
+    <Head
+    title={`${siteConfig.title}`}
+    description="Description will go into a meta tag in <head />"
+    />  
     <Navbar
     />
     </LayoutProviders>
@@ -191,9 +191,6 @@ useEffect(() => {
   
 
   </div>
-
-  </head>
-  </>
   
 );
 };
