@@ -7,7 +7,7 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Slideshow from '../components/ReactSlider/ReactSlider';
 import LayoutProviders from '@theme/LayoutProviders'
-import Head from '@theme/Head'
+import Head from '@docusaurus/Head';
 import Navbar from '@theme/Navbar';
 import Footer from '@theme/Footer';
 
