@@ -144,20 +144,25 @@ useEffect(() => {
     //style={{position:"absolute"}}
     >
       
-   
-
   
-
     {/* <Layout
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"/> */}
     <LayoutProviders
     
     >
-    <Head
+    {/* <Head
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"
-    />  
+    />   */}
+    
+    
+    
+    <Head>
+    <title> {`${siteConfig.title}`} </title>
+    <meta name="description" content="Description will go into a meta tag in <head />" />
+    </Head>  
+    
     <Navbar
     />
     </LayoutProviders>
