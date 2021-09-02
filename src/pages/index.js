@@ -143,7 +143,7 @@ useEffect(() => {
     <Head
     title={`${siteConfig.title}`}
     description="Description will go into a meta tag in <head />"
-    />  
+    >  
     
     <div 
     //style={{position:"absolute"}}
@@ -191,7 +191,8 @@ useEffect(() => {
   
 
   </div>
-  
+
+  </Head>
   </>
   
 );
