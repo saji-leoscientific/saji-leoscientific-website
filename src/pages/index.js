@@ -45,20 +45,19 @@ export default function Home() {
 
 const {siteConfig} = useDocusaurusContext();  
 
-//////////////////////
-  const [loading, setLoading] = useState(true);
+// //////////////////////
+//   const [loading, setLoading] = useState(true);
+// ////////////////////////
+
+// useEffect(() => {
+//   setTimeout(() => {
+//     setLoading(false);
+//   }, 0.0000001);
+// }, []);
+
 ////////////////////////
 
-useEffect(() => {
-  setTimeout(() => {
-    setLoading(false);
-  }, 0.0000001);
-}, []);
 
-////////////////////////
-
-window.onload= function trial () {
-  setTimeout(() => {
   return(
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -76,8 +75,7 @@ window.onload= function trial () {
       </main>
     </Layout>
   ) 
-  }, 10);
-}
+
 /////////////////////////////
 
 // window.onload = function exampleFunction() {
