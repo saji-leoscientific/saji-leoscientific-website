@@ -63,11 +63,11 @@ useEffect(() => {
 
   return (
     
-    <div 
-    //style={{position:"absolute"}}
-    >
+    // <div 
+    // //style={{position:"absolute"}}
+    // >
       
-    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+    <div>{loading ? "loading..." : 
 
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -84,6 +84,7 @@ useEffect(() => {
         <HomepageFeatures />
       </main>
     </Layout>
+    }
     </div>
 
 /////////////////////////////////////////////////////////
