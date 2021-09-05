@@ -14,6 +14,7 @@ import Footer from '@theme/Footer';
 import Head from '@docusaurus/Head';
 // import Parent from '@docusaurus/Parent';
 // import Child from '@docusaurus/Child';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -46,19 +47,28 @@ export default function Home() {
 const {siteConfig} = useDocusaurusContext();  
 
 // //////////////////////
-//   const [loading, setLoading] = useState(true);
-// ////////////////////////
+  const [loading, setLoading] = useState(true);
+////////////////////////
 
-// useEffect(() => {
-//   setTimeout(() => {
-//     setLoading(false);
-//   }, 0.0000001);
-// }, []);
+useEffect(() => {
+  setTimeout(() => {
+    setLoading(false);
+  }, 0.0000001);
+}, []);
 
 ////////////////////////
 
 
-  return(
+  
+
+  return (
+    
+    <div 
+    //style={{position:"absolute"}}
+    >
+      
+    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
+
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
@@ -74,41 +84,9 @@ const {siteConfig} = useDocusaurusContext();
         <HomepageFeatures />
       </main>
     </Layout>
-  ) 
+    </div>
 
-/////////////////////////////
-
-// window.onload = function exampleFunction() {
-  
-//   // Function to be executed
-// }
-////////////////////////
-
-
-  // return (
-    
-  //   // <div 
-  //   // //style={{position:"absolute"}}
-  //   // >
-      
-  //   // {/* <div>{loading ? "loading..." : "hello"}</div>; */}
-
-  //   // <Layout
-  //   //   title={`Hello from ${siteConfig.title}`}
-  //   //   description="Description will go into a meta tag in <head />">
-
-  //   //     {/* <div className='slideshower'>   */}
-  //   //     <Slideshow />
-  //   //     {/* </div> */}
-      
-  //   //   {/* <p>Basldfksd</p> */}           
-  //   //   <HomepageHeader />
-
-  //   //   <main>
-  //   //     <HomepageFeatures />
-  //   //   </main>
-  //   // </Layout>
-  //   // </div>
+/////////////////////////////////////////////////////////
 
   //   <div 
   //   //style={{position:"absolute"}}
@@ -140,10 +118,10 @@ const {siteConfig} = useDocusaurusContext();
   //   </div>
 
 
-///////////////////////////////////
+/////////////////////////////////
 
-//   
+  
 
-
+  );
 
 };
