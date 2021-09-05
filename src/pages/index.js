@@ -42,6 +42,9 @@ function HomepageHeader() {
 }
 
 export default function Home() {
+
+const {siteConfig} = useDocusaurusContext();  
+
 //////////////////////
   const [loading, setLoading] = useState(true);
 ////////////////////////
@@ -54,27 +57,27 @@ useEffect(() => {
 
 ////////////////////////
 
-// window.onload= function trial () {
-//   setTimeout(() => {
-//   return(
-//     <Layout
-//       title={`Hello from ${siteConfig.title}`}
-//       description="Description will go into a meta tag in <head />">
+window.onload= function trial () {
+  setTimeout(() => {
+  return(
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
 
-//         {/* <div className='slideshower'>   */}
-//         <Slideshow />
-//         {/* </div> */}
+        {/* <div className='slideshower'>   */}
+        <Slideshow />
+        {/* </div> */}
       
-//       {/* <p>Basldfksd</p> */}           
-//       <HomepageHeader />
+      {/* <p>Basldfksd</p> */}           
+      <HomepageHeader />
 
-//       <main>
-//         <HomepageFeatures />
-//       </main>
-//     </Layout>
-//   ) 
-//   }, 10);
-// }
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+  ) 
+  }, 10);
+}
 /////////////////////////////
 
 // window.onload = function exampleFunction() {
@@ -83,7 +86,7 @@ useEffect(() => {
 // }
 ////////////////////////
 
-  const {siteConfig} = useDocusaurusContext();
+
   // return (
     
   //   // <div 
@@ -141,78 +144,8 @@ useEffect(() => {
 
 ///////////////////////////////////
 
-  return (
-    
-    <div 
-    //style={{position:"absolute"}}
-    >
-      
-  
-    {/* <Layout
-    title={`${siteConfig.title}`}
-    description="Description will go into a meta tag in <head />"/> */}
-    <LayoutProviders
-    
-    >
-    {/* <Head
-    title={`${siteConfig.title}`}
-    //description="Description will go into a meta tag in <head />"
-    />   */}
-    
-    
-    
-    {/* <Head>
-    <title> {`${siteConfig.title}`} </title>
-    <meta name="description" content="Description will go into a meta tag in <head />" />
-    </Head>  
-     */}
-
-    {/* <Parent>  
-      <Head>    
-        <title>My Title</title>    
-        <meta name="description" content="Helmet application" />  
-      </Head>  
-      <Child>    
-        <Head>      
-          <title>Nested Title</title>      
-          <meta name="description" content="Nested component" />    
-        </Head>  
-      </Child>
-    </Parent>      */}
-
-    <Navbar
-    />
-    </LayoutProviders>
-    {/* <Navbar
-    title={`${siteConfig.title}`}
-    description="Description will go into a meta tag in <head />"/> */}
+//   
 
 
-    
-  {loading ?  console.log('loading...') :  
-    
-    <>
 
-    {/* <div className='slideshower'>   */}
-    <Slideshow />
-    {/* </div> */}
-    
-    {/* <p>Basldfksd</p> */}          
-    <HomepageHeader />
-
-    <main>
-      <HomepageFeatures />
-    </main>
-
-   <Footer/>
-    </>
-    }  
-
-  {/* </Layout> */}
-   
-  
-
-  </div>
-  
-);
 };
