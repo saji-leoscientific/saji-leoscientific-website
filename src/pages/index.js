@@ -63,68 +63,62 @@ useEffect(() => {
 
   return (
     
-    // // <div 
-    // // //style={{position:"absolute"}}
-    // // >
+    // <div 
+    // //style={{position:"absolute"}}
+    // >
       
-    // <div>{loading ? " " : 
+    <div>{loading ? " " : 
 
-    // <Layout
-    //   title={`Hello from ${siteConfig.title}`}
-    //   description="Description will go into a meta tag in <head />">
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
 
-    //     {/* <div className='slideshower'>   */}
-    //     <Slideshow />
-    //     {/* </div> */}
+        {/* <div className='slideshower'>   */}
+        <Slideshow />
+        {/* </div> */}
       
-    //   {/* <p>Basldfksd</p> */}           
-    //   <HomepageHeader />
+      {/* <p>Basldfksd</p> */}           
+      <HomepageHeader />
 
-    //   <main>
-    //     <HomepageFeatures />
-    //   </main>
-    // </Layout>
-    // }
-    // </div>
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+    }
+    </div>
 
 /////////////////////////////////////////////////////////
 
-    <div 
-    //style={{position:"absolute"}}
-    // onLoad={trial()}
-    >
+    // <>
+  //   <LayoutProviders
+  //   // title={`Hello from ${siteConfig.title}`}
+  //   // description="Description will go into a meta tag in <head />"
+  //   >
+
+  //     {/* <div className='slideshower'>   */}
       
-  
-    <LayoutProviders
-    // title={`Hello from ${siteConfig.title}`}
-    // description="Description will go into a meta tag in <head />"
-    >
+  //     {/* </div> */}
+            
 
-      {/* <div className='slideshower'>   */}
-      <Slideshow />
-      {/* </div> */}
+  //   <Navbar/>
+  //   </LayoutProviders>
+
+  //   <div>{loading ? " " : {
+
+  //   <Slideshow />
+
+  //   <HomepageHeader />
+
+  //   <main>
+  //     <HomepageFeatures />
+  //   </main>
+
+  //   <Footer/>
     
-    {/* <p>Basldfksd</p> */}           
 
-    <Navbar/>
-    </LayoutProviders>
-
-    
-    <HomepageHeader />
-
-    <main>
-      <HomepageFeatures />
-    </main>
-
-    <Footer/>
-    
- 
-
-    
-    {/* <div>{loading ? "loading..." : "hello"}</div>; */}
-
- 
-    </div>
+  // }
+  //   </div>
+  //   </>
 
 
 /////////////////////////////////
