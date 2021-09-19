@@ -95,7 +95,7 @@ useEffect(() => {
     >
       
   
-    <Layout
+    <LayoutProviders
     title={`Hello from ${siteConfig.title}`}
     description="Description will go into a meta tag in <head />">
 
@@ -104,12 +104,17 @@ useEffect(() => {
       {/* </div> */}
     
     {/* <p>Basldfksd</p> */}           
+
+    <Navbar/>
+
     <HomepageHeader />
 
     <main>
       <HomepageFeatures />
     </main>
-  </Layout>
+
+    <Footer/>
+    </LayoutProviders>
  
 
     
