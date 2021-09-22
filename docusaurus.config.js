@@ -51,6 +51,27 @@ module.exports = {
           position: 'right',
           label: 'Contact-Us',
         },
+        /////////////////////DROPDOWN///////////////////
+        {
+          label: 'MORE',
+          position: 'right', // or 'left'
+          items: [
+             {
+               label: 'Products',
+               to: '/docs/Products/Products',          
+             },
+              {
+                label: 'Contact-Us',
+                href: '/docs/Contact Details', 
+              },
+            {
+              label: 'Others',
+              to: '/docs/Products/Products', 
+            },
+            // ... more items
+          ],
+        },
+        /////////////////////DROPDOWN///////////////////
         {
           href: 'https://leoscientific.in/',
           label: 'Our-Other-Page',
