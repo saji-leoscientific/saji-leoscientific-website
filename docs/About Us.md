@@ -2,6 +2,38 @@
 sidebar_position: 2
 ---
 
+import ImageSwitcher from '../src/components/ModeImageSwitcher/ModeImageSwitcher.js';
+import '../src/components/ModeImageSwitcher/ModeImageSwitcher.css';
+import './ModeSwitchLogoCenterAlign.css'
+import logolight from '../static/img/LeoScientific-logo-light.png'
+import logodark from '../static/img/LeoScientific-logo-dark.png'
+
+
+
+<!-- ![](../../static/img/Leoscientific-logo-dark.png)
+
+![](../../static/img/Leoscientific-logo-light.svg) -->
+
+<!-- ---
+sidebar_position: 100
+--- -->
+
+
+<!-- <ImageSwitcher 
+lightImageSrc="//satyr.io/300/black?text=LightMode"
+darkImageSrc="//satyr.io/300/white?text=DarkMode"/> -->
+
+
+<div className="div-center-alignments">
+<ImageSwitcher 
+lightImageSrc={logolight}
+darkImageSrc={logodark}
+//lightImageSrc="../../static/img/LeoScientific-logo-light.svg" // baseUrl: '/'?
+//darkImageSrc="../../static/img/Leoscientific-logo-dark.png"   // baseUrl: '/'?
+//lightImageSrc="../../../static/img/LeoScientific-logo-light.svg" // baseUrl: '/saji-leoscientific-website/'
+//darkImageSrc="../../../static/img/Leoscientific-logo-dark.png" // baseUrl: '/saji-leoscientific-website/'
+/>
+</div>
 
 # About Us
 
