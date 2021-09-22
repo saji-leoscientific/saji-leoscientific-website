@@ -2,11 +2,11 @@
 sidebar_position: 100
 ---
 
-import ImageSwitcher from '../../src/components/ContactDetailsImageSwitcher/ContactDetailsImageSwitcher.js';
-import '../../src/components/ContactDetailsImageSwitcher/ContactDetailsImageSwitcher.css';
-import './Contact-Details.css'
-import logolight from '../../static/img/LeoScientific-logo-light.png'
-import logodark from '../../static/img/LeoScientific-logo-dark.png'
+import ImageSwitcher from '../src/components/ContactDetailsImageSwitcher/ContactDetailsImageSwitcher.js';
+import '../src/components/ContactDetailsImageSwitcher/ContactDetailsImageSwitcher.css';
+<!-- import './Contact-Details.css' -->
+import logolight from '../static/img/LeoScientific-logo-light.png'
+import logodark from '../static/img/LeoScientific-logo-dark.png'
 
 
 
