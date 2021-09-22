@@ -47,9 +47,9 @@ module.exports = {
       items: [
         {
           // type: 'doc',
-          to: '/docs/Contact Details/Contact Details',
+          to: '/docs/Contact Details',
           position: 'right',
-          label: 'Contact-Details',
+          label: 'Contact-Us',
         },
         {
           href: 'https://leoscientific.in/',
