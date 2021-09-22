@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 import ImageSwitcher from '../src/components/ModeImageSwitcher/ModeImageSwitcher.js';
-import '../src/components/ContactDetailsImageSwitcher/ContactDetailsImageSwitcher.css';
+import '../src/components/ModeImageSwitcher/ModeImageSwitcher.css';
 import './ModeSwitchLogoCenterAlign.css'
 import logolight from '../static/img/LeoScientific-logo-light.png'
 import logodark from '../static/img/LeoScientific-logo-dark.png'
