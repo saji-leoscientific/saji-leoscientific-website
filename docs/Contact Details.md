@@ -36,7 +36,7 @@ darkImageSrc={logodark}
 </div>
 
 ### Contact Us by Call 
-[+91 9845083015]!(+91 9845083015)
+<+91 9845083015>
 #### Land-Line No.
 [080 42096785]!(Tel:080 42096785)
 
