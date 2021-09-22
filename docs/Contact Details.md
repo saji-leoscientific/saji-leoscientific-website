@@ -35,12 +35,12 @@ darkImageSrc={logodark}
 />
 </div>
 
-### Contact us by Call 
+### Contact Us by Call 
 +91 9845083015
 #### Land-Line No.
-080-42096785
+[](080-42096785)
 
-### Contact us by Mail
+### Contact Us by Mail
 sajmatms@gmail.com
 
 ### Address
@@ -50,4 +50,4 @@ sajmatms@gmail.com
 Leo Scientific,
 Kochi, Kerala
 #### Contact this branch by call (Kerala branch)
-+91 9847016450
+[](+91 9847016450)
