@@ -35,7 +35,7 @@ darkImageSrc={logodark}
 />
 </div>
 
-# About Us
+<!-- # About Us -->
 
 ## Company Profile
 
