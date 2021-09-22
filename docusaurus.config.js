@@ -62,7 +62,7 @@ module.exports = {
              },
               {
                 label: 'Contact-Us',
-                href: '/docs/Contact Details', 
+                to: '/docs/Contact Details', 
               },
             {
               label: 'Others',
