@@ -60,14 +60,18 @@ module.exports = {
                label: 'Products',
                to: '/docs/Products/Products',          
              },
-              {
-                label: 'Contact-Us',
-                to: '/docs/Contact Details', 
-              },
-            {
+             {
+              label: 'Contact-Us',
+              to: '/docs/Contact Details', 
+             },
+             {
+              label: 'About-Us',
+              to: '/docs/About-Us', 
+             }, 
+             {
               label: 'Others',
               to: '/docs/Products/Products', 
-            },
+             },
             // ... more items
           ],
         },
