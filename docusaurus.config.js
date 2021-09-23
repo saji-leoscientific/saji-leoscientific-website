@@ -66,7 +66,7 @@ module.exports = {
              },
              {
               label: 'About-Us',
-              to: '/docs/About-Us', 
+              to: '/docs/About Us', 
              }, 
              {
               label: 'Others',
