@@ -32,7 +32,7 @@ module.exports = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
       switchConfig: {
-        darkIcon: '\u{1f319}',
+        darkIcon: '\u{26c8}',
         lightIcon: '\u{1f324}',
       },
     },
