@@ -24,7 +24,7 @@ module.exports = {
        backgroundColor: '#091E42', // Defaults to `#fff`.
       textColor: '#fafbfc', // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
-    // },
+    },
     ////////////////////////////////////////////////////////
     hideableSidebar: true,
     colorMode: {
