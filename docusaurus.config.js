@@ -16,14 +16,14 @@ module.exports = {
   projectName: 'saji-leoscientific-website', // Usually your repo name.
   themeConfig: {
     /////////////////ANOUNCEMENT BAR ///////////////////////
-    // announcementBar: {
-    //   id: 'banner', // Any value that will identify this message.
-    //   content:
-    //    // 'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-    //    'You can now download Windows 11 original walpapers from the DOWNLOAD LINKS Dropdown below !',
-    //    backgroundColor: '#091E42', // Defaults to `#fff`.
-    //   textColor: '#fafbfc', // Defaults to `#000`.
-    //   isCloseable: false, // Defaults to `true`.
+    announcementBar: {
+      id: 'banner', // Any value that will identify this message.
+      content:
+       // 'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+       'LeoScintific ! ORDER NOW, CALL 9845083015',
+       backgroundColor: '#091E42', // Defaults to `#fff`.
+      textColor: '#fafbfc', // Defaults to `#000`.
+      isCloseable: false, // Defaults to `true`.
     // },
     ////////////////////////////////////////////////////////
     hideableSidebar: true,
