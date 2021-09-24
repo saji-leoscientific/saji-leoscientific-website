@@ -20,7 +20,7 @@ module.exports = {
       id: 'banner', // Any value that will identify this message.
       content:
        // 'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-       'LeoScintific ! ORDER NOW, CALL 9845083015',
+       '🥽 🥼 LEOSCIENTIFIC ! ORDER NOW !!!, CALL 9845083015 FOR MORE DETAILS ! 🥽 🥼 ',
        backgroundColor: '#091E42', // Defaults to `#fff`.
       textColor: '#fafbfc', // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
