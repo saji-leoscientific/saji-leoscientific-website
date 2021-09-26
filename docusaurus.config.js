@@ -41,8 +41,8 @@ module.exports = {
       logo: {
         alt: 'LeoScientific Logo',
         // src: 'img/logo.svg',
-        src: 'img/LeoScientific-logo-light.png',
-        srcDark: 'img/Leoscientific-logo-dark.png',
+        src: 'img/LeoScientific-logo-light.ico',
+        srcDark: 'img/Leoscientific-logo-dark.ico',
       },
       items: [
         {
