@@ -1,1 +1,0 @@
-(self.webpackChunkleo_scientific_website=self.webpackChunkleo_scientific_website||[]).push([[121],{2897:function(e){"use strict";e.exports=[]}}]);
