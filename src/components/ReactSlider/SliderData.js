@@ -1,8 +1,10 @@
 import s1 from '../../../static/slideshowimages/s1.jpg'
 import s2 from '../../../static/slideshowimages/s2.png'
 import s3 from '../../../static/slideshowimages/s3.jpg'
-import s4 from '../../../static/img/bgless1.png'
-import s5 from '../../../static/img/bgless2.png'
+// import s4 from '../../../static/img/bgless1.png'
+// import s5 from '../../../static/img/bgless2.png'
+import s4 from '../../../static/slideshowimages/s4.png'
+import s5 from '../../../static/slideshowimages/s5.png'
 
 export const SliderData = [
 
