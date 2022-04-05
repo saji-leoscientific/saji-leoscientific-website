@@ -1,8 +1,11 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: 'Leo Scientific',
   tagline: 'The Product Expert!',
   url: 'https://saji-leoscientific.github.io/',
@@ -14,8 +17,35 @@ module.exports = {
   //favicon: 'img/Leoscientific-logo-dark.png ',
   organizationName: 'Leoscientific-India', // Usually your GitHub org/user name.
   projectName: 'saji-leoscientific-website', // Usually your repo name.
-  themeConfig: {
-    /////////////////ANOUNCEMENT BAR ///////////////////////
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      }),
+    ],
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    (
+      {
+         /////////////////ANOUNCEMENT BAR ///////////////////////
     announcementBar: {
       id: 'banner', // Any value that will identify this message.
       content:
@@ -27,15 +57,14 @@ module.exports = {
     },
     ////////////////////////////////////////////////////////
     hideableSidebar: true,
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-      switchConfig: {
-        darkIcon: '\u{26c8}',
-        lightIcon: '\u{1f324}',
-      },
-    },
+    // colorMode: {
+    //   defaultMode: 'light',
+    //   disableSwitch: false,
+    //   respectPrefersColorScheme: false,
+    //   switchConfig: {
+    //     darkIcon: '\u{26c8}',
+    //     lightIcon: '\u{1f324}',
+    //   },
     navbar: {
       title: 'Leo Scientific',
       logo: {
@@ -61,12 +90,12 @@ module.exports = {
                to: '/docs/Products/Products',          
              },
              {
-              label: 'Contact-Us',
+              label: 'Contact Details',
               to: '/docs/Contact Details', 
              },
              {
-              label: 'About-Us',
-              to: '/docs/About Us', 
+              label: 'About The Company',
+              to: '/docs/About The Company', 
              }, 
              {
               label: 'Others',
@@ -138,33 +167,13 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Leo Scientific, All Rights Reserved.`,
-    },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-    },
-  },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
-    ],
-  ],
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+    }),
 };
+
+module.exports = config;
