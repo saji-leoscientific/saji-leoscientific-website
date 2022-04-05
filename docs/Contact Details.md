@@ -3,15 +3,14 @@ sidebar_position: 3
 ---
 
 <!-- import ImageSwitcher from '../src/components/ModeImageSwitcher/ModeImageSwitcher.js';
-import '../src/components/ModeImageSwitcher/ModeImageSwitcher.css';
+import '../src/components/ModeImageSwitcher/ModeImageSwitcher.css'; -->
 import './ModeSwitchLogoCenterAlign.css'
 import logolight from '../static/img/LeoScientific-logo-light.png'
-import logodark from '../static/img/LeoScientific-logo-dark.png' -->
+import logodark from '../static/img/LeoScientific-logo-dark.png'
 
-import './ModeSwitchLogoCenterAlign.css'
+<!-- import './ModeSwitchLogoCenterAlign.css' -->
 
 import ThemedImage from '@theme/ThemedImage';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 
@@ -45,8 +44,8 @@ darkImageSrc={logodark}
     <ThemedImage
   alt="Docusaurus themed image"
   sources={{
-    light: useBaseUrl('/img/Leoscientific-logo-light.png'),
-    dark: useBaseUrl('/img/Leoscientific-logo-dark.png'),
+    light: logolight,
+    dark: logodark,
   }}
 />
 </div>
