@@ -78,7 +78,7 @@ const config = {
           // type: 'doc',
           to: '/docs/Contact Details',
           position: 'right',
-          label: 'Contact-Us',
+          label: 'Contact Details',
         },
         /////////////////////DROPDOWN///////////////////
         {

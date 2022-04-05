@@ -2,49 +2,18 @@
 sidebar_position: 2
 ---
 
-<!-- import ImageSwitcher from '../src/components/ModeImageSwitcher/ModeImageSwitcher.js';
-import '../src/components/ModeImageSwitcher/ModeImageSwitcher.css';
 import './ModeSwitchLogoCenterAlign.css'
 import logolight from '../static/img/LeoScientific-logo-light.png'
-import logodark from '../static/img/LeoScientific-logo-dark.png' -->
-
-
+import logodark from '../static/img/LeoScientific-logo-dark.png'
 import ThemedImage from '@theme/ThemedImage';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
-
-<!-- ![](../../static/img/Leoscientific-logo-dark.png)
-
-![](../../static/img/Leoscientific-logo-light.svg) -->
-
-<!-- ---
-sidebar_position: 100
---- -->
-
-
-<!-- <ImageSwitcher 
-lightImageSrc="//satyr.io/300/black?text=LightMode"
-darkImageSrc="//satyr.io/300/white?text=DarkMode"/> -->
-
-
-<!-- <div className="div-center-alignments">
-<ImageSwitcher 
-lightImageSrc={logolight}
-darkImageSrc={logodark}
-//lightImageSrc="../../static/img/LeoScientific-logo-light.svg" // baseUrl: '/'?
-//darkImageSrc="../../static/img/Leoscientific-logo-dark.png"   // baseUrl: '/'?
-//lightImageSrc="../../../static/img/LeoScientific-logo-light.svg" // baseUrl: '/saji-leoscientific-website/'
-//darkImageSrc="../../../static/img/Leoscientific-logo-dark.png" // baseUrl: '/saji-leoscientific-website/'
-/>
-</div> -->
 
 <div className="div-center-alignments">
     <ThemedImage
   alt="Docusaurus themed image"
   sources={{
-    light: useBaseUrl('/img/Leoscientific-logo-light.png'),
-    dark: useBaseUrl('/img/Leoscientific-logo-dark.png'),
+    light: logolight,
+    dark: logodark,
   }}
 />
 </div>
