@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkleo_scientific_website=self.webpackChunkleo_scientific_website||[]).push([[5348],{1292:function(e){e.exports=JSON.parse('{"allTagsPath":"/saji-leoscientific-website/blog/tags","name":"docusaurus","count":4,"permalink":"/saji-leoscientific-website/blog/tags/docusaurus"}')}}]);

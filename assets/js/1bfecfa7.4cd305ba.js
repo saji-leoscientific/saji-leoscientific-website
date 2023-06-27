@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleo_scientific_website=self.webpackChunkleo_scientific_website||[]).push([[564],{761:e=>{e.exports=JSON.parse('{"permalink":"/saji-leoscientific-website/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
