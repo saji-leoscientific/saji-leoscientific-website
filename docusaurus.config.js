@@ -56,7 +56,12 @@ const config = {
       isCloseable: false, // Defaults to `true`.
     },
     ////////////////////////////////////////////////////////
-    hideableSidebar: true,
+    // hideableSidebar: true,
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     // colorMode: {
     //   defaultMode: 'light',
     //   disableSwitch: false,

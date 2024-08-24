@@ -6,15 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Slideshow from '../components/ReactSlider/ReactSlider';
-import LayoutProviders from '@theme/LayoutProviders'
-
-import Navbar from '@theme/Navbar';
-import Footer from '@theme/Footer';
-
-import Head from '@docusaurus/Head';
-// import Parent from '@docusaurus/Parent';
-// import Child from '@docusaurus/Child';
-import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
