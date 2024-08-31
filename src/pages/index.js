@@ -18,7 +18,7 @@ function HomepageHeader() {
         style={{color:"#505050", cursor:"default"}} // top badge color
         >{siteConfig.title}</h1>
         <p className="hero__subtitle"
-        style={{color:"#505050"}} // top badge tagline color
+        style={{color:"#505050"}} // top badge tagline color mod
         >{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
